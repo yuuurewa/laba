@@ -1,4 +1,5 @@
-obj-m += netlink.o
+obj-m += nt.o
+nt-objs := netlink.o main.o
 
  
 all:

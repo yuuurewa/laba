@@ -1,0 +1,1 @@
+cmd_/home/stud23/m5/netlink/Module.symvers := sed 's/\.ko$$/\.o/' /home/stud23/m5/netlink/modules.order | scripts/mod/modpost -m -a  -o /home/stud23/m5/netlink/Module.symvers -e -i Module.symvers   -T -
